@@ -1,0 +1,1 @@
+let url = "http://api.openweathermap.org/data/2.5/weather?q=denver&appid=fe939d3ba23f6a6e45a8f8a0bedd6acd&units=imperial"
