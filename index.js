@@ -1,8 +1,8 @@
 
 
-let temp = document.getElementById("temperature");
+let temperature = document.getElementById("temperature");
 let humid = document.getElementById("humidity");
-let btn = document.getElementById("button")
+let btn = document.getElementById("button");
 let input = document.getElementById("input");
 
 
@@ -18,12 +18,9 @@ let totalUrl = url + city + key + units;
     .then(response => response.json())
     .then(function(data) {
         console.log(data.main, data.name);
-        
         input.value = "";
-        let temperature = data.main.temp;
-        console.log(temperature)
-        temp.innerText = temperature;
-        humid.innerText = data.main.humidity
+        console.log(data.main.temp)
+        temperature.innerText = `The temperature in ${data.name} is ${data.main.temp} degrees Fahrenheit, but it feels like ${data.main.feels_like} degrees. The humidity is ${data.main.humidity}%.`;
     })
 }
 

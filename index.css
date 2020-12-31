@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ECB2EC;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #FBE2FB;
+    width: 100vw;
+    font-size: 5vw;
+    text-align: center;
+    
+}
+
+#input {
+    background-color: #FBE2FB;
+    border-color: #ECB2EC;
+}
+
+#button {
+    color: #ffffff;
+    background-image: linear-gradient(#CFB8EE, #9090DA);
+    border-radius: 4%
+}
+
+#container {
+    width: 24vw;
+    margin: auto 38vw;
+    text-align: left;
+    display: flex;
+}
+
+#temperature {
+    text-align: left;
+    word-spacing: 0.25vw;
+    line-height: 3vh;
+}
+
+#humidity {
+    
+}
